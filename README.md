@@ -35,7 +35,7 @@
    4. Grahpql
 
 #### Compilers 
-    ```
+    ```console
     $ sudo apt update
     $ sudo apt install openjdk-8-jdk openjdk-8-jre
     $ java -version
@@ -48,7 +48,7 @@
 #### Install Latest Go
 
 ### Visual Studio
-    ```
+    ```console
     $ sudo snap install --classic code
     ```
 #### Themes
@@ -60,12 +60,12 @@
     4. Docker
 
 ### Postman
-    ```
+    ```console
     $ sudo snap install postman
     ```
 
 ### Docker
-    ```terminal
+    ```console
     // Update
     $ sudo apt update
     $ sudo apt install apt-transport-https ca-certificates curl software-properties-common
@@ -93,7 +93,7 @@
 ## Compilers etc
 - Vue cli
 ### NPM
-    ```
+    ```console
     $ curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
     $ nano nodesource_setup.sh
     $ sudo bash nodesource_setup.sh
