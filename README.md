@@ -2,7 +2,7 @@
 
 - [Development Tools](#development-tools)
   - [IDES](#ides)
-    - [Jetbrains toolbox](#jetbrains-toolbox)
+    - [Toolbox](#toolbox)
     - [Android Studio](#android-studio)
       - [Plugins](#plugins)
       - [Compilers](#compilers)
@@ -23,9 +23,10 @@
 
 ## IDES
 
-### Jetbrains toolbox
-
-    1. [Tool Box](https://www.jetbrains.com/toolbox-app/)
+### Toolbox
+```
+   1. [Toolbox](https://www.jetbrains.com/toolbox-app/)
+```
 
 ### Android Studio
 #### Plugins
