@@ -14,6 +14,7 @@
     - [Postman](#postman)
     - [Docker](#docker)
   - [Compilers etc](#compilers-etc)
+    - [NPM](#npm)
 - [Productivity Tools](#productivity-tools)
   - [Browser](#browser)
     - [Chrome](#chrome)
@@ -91,7 +92,14 @@
 <!--  -->
 ## Compilers etc
 - Vue cli
-- npm
+### NPM
+    ```
+        $ curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
+        $ nano nodesource_setup.sh
+        $ sudo bash nodesource_setup.sh
+        $ sudo apt install nodejs
+        $ node -v
+    ```
 - zip
 - Zeal
 
