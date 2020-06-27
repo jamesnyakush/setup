@@ -24,9 +24,7 @@
 ## IDES
 
 ### Toolbox
-```
    1. [Toolbox](https://www.jetbrains.com/toolbox-app/)
-```
 
 ### Android Studio
 #### Plugins
