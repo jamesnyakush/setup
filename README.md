@@ -35,22 +35,22 @@
    4. Grahpql
 
 #### Compilers 
-    ```console
-    $ sudo apt update
-    $ sudo apt install openjdk-8-jdk openjdk-8-jre
-    $ java -version
+ ```console
+ $ sudo apt update
+ $ sudo apt install openjdk-8-jdk openjdk-8-jre
+ $ java -version
 
-    $ sudo snap install kotlin --classic
-    ```
+ $ sudo snap install kotlin --classic
+ ```
 
 ### Goland
 
 #### Install Latest Go
 
 ### Visual Studio
-    ```console
-    $ sudo snap install --classic code
-    ```
+```console
+$ sudo snap install --classic code
+```
 #### Themes
     1. Material  
 #### Plugins
@@ -60,46 +60,46 @@
     4. Docker
 
 ### Postman
-    ```console
-    $ sudo snap install postman
-    ```
+ ```console
+ $ sudo snap install postman
+ ```
 
 ### Docker
-    ```console
-    // Update
-    $ sudo apt update
-    $ sudo apt install apt-transport-https ca-certificates curl software-properties-common
-    $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-    $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+ ```console
+ // Update
+ $ sudo apt update
+ $ sudo apt install apt-transport-https ca-certificates curl software-properties-common
+ $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+ $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
 
-    // Update
-    $ sudo apt update
+ // Update
+ $ sudo apt update
 
-    $ apt-cache policy docker-ce
+ $ apt-cache policy docker-ce
 
-    // Installing Docker
-    $ sudo apt install docker-ce
+ // Installing Docker
+ $ sudo apt install docker-ce
 
-    // Checking status
-    $ sudo systemctl status docker
+ // Checking status
+ $ sudo systemctl status docker
 
-    // Running as Super Admin
-    $ sudo usermod -aG docker ${USER}
-    $ su - ${USER}
-    $ id -nG
-    ```
+ // Running as Super Admin
+ $ sudo usermod -aG docker ${USER}
+ $ su - ${USER}
+ $ id -nG
+ ```
 
 <!--  -->
 ## Compilers etc
 - Vue cli
 ### NPM
-    ```console
-    $ curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
-    $ nano nodesource_setup.sh
-    $ sudo bash nodesource_setup.sh
-    $ sudo apt install nodejs
-    $ node -v
-    ```
+```console
+$ curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
+$ nano nodesource_setup.sh
+$ sudo bash nodesource_setup.sh
+$ sudo apt install nodejs
+$ node -v
+```
 - zip
 - Zeal
 
