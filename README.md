@@ -34,14 +34,22 @@
    4. Grahpql
 
 #### Compilers 
-   1. [Open JDK 8](https://tecadmin.net/install-oracle-java-8-ubuntu-via-ppa/)
-   2. [Kotlin](https://snapcraft.io/install/kotlin/ubuntu)
+    ```
+       $ sudo apt update
+       $ sudo apt install openjdk-8-jdk openjdk-8-jre
+       $ java -version
+
+       $ sudo snap install kotlin --classic
+    ```
 
 ### Goland
 
 #### Install Latest Go
 
 ### Visual Studio
+    ```
+        $ sudo snap install --classic code
+    ```
 #### Themes
     1. Material  
 #### Plugins
@@ -51,8 +59,34 @@
     4. Docker
 
 ### Postman
+    ```
+       $ sudo snap install postman
+    ```
 
 ### Docker
+    ```terminal
+        // Update
+        $ sudo apt update
+        $ sudo apt install apt-transport-https ca-certificates curl software-properties-common
+        $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+        $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+
+        // Update
+        $ sudo apt update
+
+        $ apt-cache policy docker-ce
+
+        // Installing Docker
+        $ sudo apt install docker-ce
+
+        // Checking status
+        $ sudo systemctl status docker
+
+        // Running as Super Admin
+        $ sudo usermod -aG docker ${USER}
+        $ su - ${USER}
+        $ id -nG
+    ```
 
 <!--  -->
 ## Compilers etc
